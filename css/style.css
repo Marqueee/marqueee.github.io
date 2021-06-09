@@ -357,7 +357,7 @@ a.demo--current {
     max-width: 350px;
   }
 
-  .header { grid-area: 1 / 1 / 2 / 2; }
+  .header { grid-area: 1 / 1 / 1 / 1; }
 
 
   .title-header {
