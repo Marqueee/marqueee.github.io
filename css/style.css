@@ -337,6 +337,7 @@ a.demo--current {
     pointer-events: none;
     margin: 40px;
     overflow: hidden;
+    min-width:350px;
   }
   .nav {
     grid-area: 2 / 1 / 3 / 2;
