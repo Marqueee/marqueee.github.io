@@ -1,64 +1,193 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+    
 		<title>Synthetic Liquid</title>
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="/css/component.css" />
+    <link rel="preload" href="/fonts/hydro2.woff2" as="font" type="font/woff2" crossorigin>
 		<script>document.documentElement.className = 'js';</script>
-	</head>
-	<body class="organic loading">
+    <!--Liquid Buttons Script-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="/js/liquid_button.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
+	<meta name="generator" content="Hexo 5.4.0"></head>
+
+  <body class="organic loading">
     <div class="background_main">
-      <img src="img/background_main.jpg" class="slide-item__image">
-    </div>
+          <img src="/img/background_main.jpg" class="slide-item__image">
+       </div>
+  <div class="grid-container">
+  <div class="header"></div>
+  <div class="menu-btn">
+  </div>
+  <div class="title-header">
+    <img srcset="/img/header.png 800w,
+                 /img/header-sm.png 500w" alt="Synthetic Liquid">
+  </div>
 
-      <div class="center">
-        <div class="logo"><img src="img/logo.png" alt="logo" /></div>
-      </div>
+  <div class="nav">
+    <ul class="ul-menu">
+      <li>
+        <a href="#"> <!--/music-->
+        <svg class="liquid-button"
+          data-text="MUSIC"
+          data-force-factor="0.1"
+          data-layer-1-viscosity="0.7"
+          data-layer-2-viscosity="0.4"
+          data-layer-1-mouse-force="400"
+          data-layer-2-mouse-force="500"
+          data-layer-1-force-limit="1"
+          data-layer-2-force-limit="2"
+          data-color1="rgba(54, 209, 220, 0.7)" data-color2="rgba(54, 209, 220, 0.7)" data-color3="rgba(91,134,229,0.7)" > </svg></a></li>
+      <li><svg class="liquid-button"
+          data-text="MIXES"
+          data-force-factor="0.1"
+          data-layer-1-viscosity="0.7"
+          data-layer-2-viscosity="0.4"
+          data-layer-1-mouse-force="400"
+          data-layer-2-mouse-force="500"
+          data-layer-1-force-limit="1"
+          data-layer-2-force-limit="2"
+          data-color1="rgba(61,204,176,0.7)" data-color2="rgba(61,204,176,0.7)" data-color3="rgba(37,170,225, 0.7)" ></svg></li>
+      <li><svg class="liquid-button"
+          data-text="SOUNDS"
+          data-force-factor="0.1"
+          data-layer-1-viscosity="0.7"
+          data-layer-2-viscosity="0.4"
+          data-layer-1-mouse-force="400"
+          data-layer-2-mouse-force="500"
+          data-layer-1-force-limit="1"
+          data-layer-2-force-limit="2"
+          data-color1="rgba(54,209,220, 0.7)" data-color2="rgba(54,209,220, 0.7)" data-color3="rgba(91,134,229, 0.7)" ></svg></li>
+    </ul>
+  </div>
+  <div class="logo">
+    <a class="toggle" href="#"><img src="/img/syl-logo-333.gif" alt="logo" /> </a>
+  </div>
 
-		<script src="js/demo.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <div class="overlay" id="overlay">
+  <div class="cancel">
+    <img src="/img/cancel.png" alt='cancel'/>
+  </div>
+  <nav class="overlay-menu">
+    <ul>
+      <li ><a href="/music">MUSIC</a></li>
+      <li><a href="#">MIXES</a></li>
+      <li><a href="#">SOUNDS</a></li>
+      <li><a href="#">GRAPHICS</a></li>
+      <li><a href="#">INFO</a></li>
+      <li><a href="#">MORE</a></li>
+    </ul>
+  </nav>
+</div>
 
-    <script src="js/curtains.min.js" type="text/javascript"></script>
-    <script src="js/TweenMax.min.js" type="text/javascript"></script>
-    <script src="js/main5.js" type="text/javascript"></script>
-		<script src="js/pixi.min.js"></script>
 
-    <!-- Shader Script -->
-		<script>
-			imagesLoaded(document.body, () => document.body.classList.remove('loading'));
+  <div class="side">
+    <ul class="ul-menu">
+      <li><a href="#"><svg class="liquid-button"
+          data-text="GRAPHICS"
+          data-force-factor="0.1"
+          data-layer-1-viscosity="0.7"
+          data-layer-2-viscosity="0.4"
+          data-layer-1-mouse-force="400"
+          data-layer-2-mouse-force="500"
+          data-layer-1-force-limit="1"
+          data-layer-2-force-limit="2"
+          data-color1="rgba(102,125,182, 0.7)" data-color2="rgba(102,125,182, 0.7)" data-color3="rgba(89,171,219, 0.7)" >
+      </svg></a></li>
+      <li><a href="#"><svg class="liquid-button"
+          data-text="INFO"
+          data-force-factor="0.1"
+          data-layer-1-viscosity="0.7"
+          data-layer-2-viscosity="0.4"
+          data-layer-1-mouse-force="400"
+          data-layer-2-mouse-force="500"
+          data-layer-1-force-limit="1"
+          data-layer-2-force-limit="2"
+          data-color1="rgba(172,182,229, 0.7)" data-color2="rgba(172,182,229, 0.7)" data-color3="rgba(252,92,125, 0.7)" >
+      </svg></a></li>
+      <li><a href="#"><svg class="liquid-button"
+          data-text="SOON"
+          data-force-factor="0.1"
+          data-layer-1-viscosity="0.7"
+          data-layer-2-viscosity="0.4"
+          data-layer-1-mouse-force="400"
+          data-layer-2-mouse-force="500"
+          data-layer-1-force-limit="1"
+          data-layer-2-force-limit="2"
+          data-color1="rgba(131,164,212, 0.7)" data-color2="rgba(131,164,212, 0.7)" data-color3="rgba(182,251,255, 0.7)" >
+      </svg></a></li>
+    </ul>
+  </div>
+  <div class="footer">
+    <ul class='ul-menu'>
+      <li>
+        <a target="_blank" rel="noopener" href="https://syntheticliquid.bandcamp.com/" ><img src="/img/bandcamp.svg" alt="Bandcamp"></a>
+      </li>
+      <li>
+        <a target="_blank" rel="noopener" href="https://soundcloud.com/syntheticliquid/" ><img src="/img/soundcloud.svg" alt="Soundcloud"></a>
+      </li>
+      <li>
+        <a target="_blank" rel="noopener" href="https://instagram.com/syntheticliquid/" ><img src="/img/instagram.svg" alt="Instagram"></a>
+      </li>
+    </ul>
 
-			var spriteImages = document.querySelectorAll( '.slide-item__image' );
-			var spriteImagesSrc = [];
-			var texts = [];
 
-			for ( var i = 0; i < spriteImages.length; i++ ) {
-				var img = spriteImages[i];
-				// Set the texts you want to display to each slide
-				// in a sibling element of your image and edit accordingly
-				if ( img.nextElementSibling ) {
-					texts.push(img.nextElementSibling.innerHTML);
-				} else {
-					texts.push('');
-				}
-				spriteImagesSrc.push( img.getAttribute('src' ) );
-			}
+  </div>
+</div>
 
-			var initCanvasSlideshow = new CanvasSlideshow({
-				sprites: spriteImagesSrc,
-				displacementImage: 'img/dmaps/2048x2048/clouds.jpg',
-				autoPlay: true,
-				autoPlaySpeed: [4, 3],
-				displaceScale: [5000, 10000],
-				interactive: true,
-				interactionEvent: 'click', // 'click', 'hover', 'both'
-				displaceAutoFit: false,
-				dispatchPointerOver: true // restarts pointerover event after click
-			});
-		</script>
-	</body>
+  </body>
+  <!-- Animation Scripts -->
+      <script src="/js/demo.js"></script>
+      <script src="/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+      <script src="/js/curtains.min.js" type="text/javascript"></script>
+      <script src="/js/TweenMax.min.js" type="text/javascript"></script>
+      <script src="/js/main5.js" type="text/javascript"></script>
+  		<script src="/js/pixi.min.js"></script>
+
+
+      <!-- PixieJS and Custom Fonts conflict escape-->
+        <script>
+          imagesLoaded(document.body, () => document.body.classList.remove('loading'));
+
+          var spriteImages = document.querySelectorAll( '.slide-item__image' );
+          var spriteImagesSrc = [];
+          var texts = [];
+
+          for ( var i = 0; i < spriteImages.length; i++ ) {
+            var img = spriteImages[i];
+            // Set the texts you want to display to each slide
+            // in a sibling element of your image and edit accordingly
+            if ( img.nextElementSibling ) {
+              texts.push(img.nextElementSibling.innerHTML);
+            } else {
+              texts.push('');
+            }
+            spriteImagesSrc.push( img.getAttribute('src' ) );
+          }
+
+          var initCanvasSlideshow = new CanvasSlideshow({
+            sprites: spriteImagesSrc,
+            displacementImage: '/img/dmaps/2048x2048/clouds.jpg',
+            autoPlay: true,
+            autoPlaySpeed: [4, 3],
+            displaceScale: [5000, 10000],
+            interactive: true,
+            interactionEvent: 'click', // 'click', 'hover', 'both'
+            displaceAutoFit: false,
+            dispatchPointerOver: true // restarts pointerover event after click
+          });
+
+
+        </script>
+
+
 </html>
+

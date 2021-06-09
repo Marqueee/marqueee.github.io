@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 164 164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-3201.71,-6512.53)">
+        <g transform="matrix(1,0,0,1,2160.61,5235.53)">
+            <g id="icons8-soundcloud.svg" transform="matrix(2.55584,0,0,2.55584,1122.89,1358.79)">
+                <g transform="matrix(1,0,0,1,-32,-32)">
+                    <path d="M22,20.02L22,45L24,45L24,20.33C23.35,20.15 22.68,20.05 22,20.02ZM14,23.7L14,45L16,45L16,21.79C15.24,22.32 14.57,22.97 14,23.7ZM6,28.52L6,43.48C6.62,43.89 7.29,44.23 8,44.48L8,27.52C7.29,27.77 6.62,28.11 6,28.52ZM4,41.64L4,30.36C2.75,31.9 2,33.87 2,36C2,38.13 2.75,40.1 4,41.64ZM11,27C10.66,27 10.33,27.02 10,27.06L10,44.94C10.33,44.98 10.66,45 11,45C11.24,45 11.48,44.99 11.74,44.96C11.82,44.99 11.91,45 12,45L12,27.06C11.67,27.02 11.33,27 11,27ZM18,20.69L18,45L20,45L20,20.13C19.31,20.23 18.64,20.42 18,20.69ZM53,27C52.32,27 51.65,27.07 51,27.22L51,27C51,19.83 45.17,14 38,14C33.02,14 28.48,16.89 26.32,21.32C26.22,21.26 26.11,21.2 26,21.14L26,45L53,45C57.96,45 62,40.96 62,36C62,31.04 57.96,27 53,27ZM53,43L28,43L28,22.45C29.77,18.56 33.69,16 38,16C44.07,16 49,20.93 49,27C49,27.45 48.96,27.93 48.88,28.5C48.84,28.85 48.98,29.21 49.27,29.43C49.56,29.65 49.94,29.69 50.27,29.55C51.13,29.19 52.05,29 53,29C56.86,29 60,32.14 60,36C60,39.86 56.86,43 53,43Z" style="fill:url(#_Linear1);fill-rule:nonzero;stroke:black;stroke-width:0.48px;"/>
+                    <path d="M58,36C58,38.76 55.76,41 53,41L30,41L30,22.9L30.12,22.68C31.71,19.79 34.73,18 38,18C42.96,18 47,22.04 47,27C47,27.35 46.97,27.74 46.9,28.22C46.76,29.3 47.2,30.37 48.06,31.02C48.59,31.42 49.21,31.64 49.88,31.64C50.28,31.64 50.68,31.56 51.05,31.4C51.67,31.13 52.32,31 53,31C55.76,31 58,33.24 58,36Z" style="fill:url(#_Linear2);fill-rule:nonzero;stroke:black;stroke-width:0.52px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.8982e-15,31,-31,1.8982e-15,32,14)"><stop offset="0" style="stop-color:rgb(255,186,115);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(204,121,77);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.40834e-15,23,-23,1.40834e-15,44,18)"><stop offset="0" style="stop-color:rgb(255,186,115);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(204,121,77);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 129 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-3038.21,-6530.31)">
+        <g transform="matrix(1,0,0,1,2160.61,5235.53)">
+            <g id="icons8-instagram.svg" transform="matrix(2.00018,0,0,2.00018,941.603,1358.79)">
+                <g transform="matrix(1,0,0,1,-32,-32)">
+                    <path d="M44,57L20,57C12.832,57 7,51.168 7,44L7,20C7,12.832 12.832,7 20,7L44,7C51.168,7 57,12.832 57,20L57,44C57,51.168 51.168,57 44,57ZM20,9C13.935,9 9,13.935 9,20L9,44C9,50.065 13.935,55 20,55L44,55C50.065,55 55,50.065 55,44L55,20C55,13.935 50.065,9 44,9L20,9Z" style="fill:url(#_Linear1);fill-rule:nonzero;stroke:black;stroke-width:0.48px;"/>
+                    <path d="M32,45C24.832,45 19,39.168 19,32C19,24.832 24.832,19 32,19C39.168,19 45,24.832 45,32C45,39.168 39.168,45 32,45ZM32,23C27.038,23 23,27.038 23,32C23,36.963 27.038,41 32,41C36.963,41 41,36.963 41,32C41,27.038 36.963,23 32,23Z" style="fill:url(#_Linear2);fill-rule:nonzero;stroke:black;stroke-width:0.48px;"/>
+                    <path d="M46,15C44.354,15 43,16.354 43,18C43,19.646 44.354,21 46,21C47.646,21 49,19.646 49,18C49,16.354 47.646,15 46,15Z" style="fill:url(#_Linear3);fill-rule:nonzero;stroke:black;stroke-width:0.57px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.1354e-15,51.205,-51.205,3.1354e-15,32,6.667)"><stop offset="0" style="stop-color:rgb(109,199,255);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(230,171,255);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.68462e-15,27.512,-27.512,1.68462e-15,32,18.167)"><stop offset="0" style="stop-color:rgb(109,199,255);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(230,171,255);stop-opacity:1"/></linearGradient>
+        <linearGradient id="_Linear3" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.30632e-16,10.299,-10.299,6.30632e-16,46,12.75)"><stop offset="0" style="stop-color:rgb(109,199,255);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(230,171,255);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
