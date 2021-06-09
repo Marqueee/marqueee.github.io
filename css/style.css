@@ -252,6 +252,7 @@ a.demo--current {
   height: 100%;
   pointer-events: none;
   margin: 40px;
+  overflow: hidden;
 }
 
 .nav {
@@ -363,7 +364,7 @@ a.demo--current {
     place-self: center;
    }
   .title-header img {
-    max-width: 450px;
+    width: 100%
   }
 
   .menu-btn {
